@@ -5,7 +5,7 @@ O projeto consiste em uma REST API para retrieve dos dados de uma CSV.
 
 Para facilitar e agilizar o processo, utilizei o método de migrations do Laravel para criar a tabela com todos os campos do csv, o arquivo é o create_users_table dentro da pasta migrate. Depois, no SQL, utilizei o script na pasta /database_files para importar os dados do backend.csv .
 
-# Endpoints Criados
+## Endpoints Criados
 Em routes, é possível verificar todos os endpoints criados para a aplicação. São eles:
 - Route::get('<b>users/search/{first_name}</b>', [UserController::class, 'search']);
   - Faz uma busca do name_first da base dados, 
